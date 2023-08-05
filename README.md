@@ -12,20 +12,21 @@ In this notebook, I (👨🏻‍💼) use the dataset [Financial Distress](https
 
 📈 Exploratory Data Analysis (EDA)
 
-🤖 Machine Learning (both **Frequentist** and **Bayesian** approaches)
+🤖 Machine Learning
 - Logistic Regression
+- Random Forest Classifier
   
-For this part, the model selection and hyperparameter tuning will be done using $k$-fold cross-validation and grid search.
+For this part, the model selection and hyperparameter tuning will be done using grid search using validation data. The best model will be selected based on 
 
 📋 Model evaluation and comparison
   - Confusion Matrix
   - Accuracy
   - Recall
   - Precision
-  - ROC Curve
+  - AUC-ROC
 
-It goes without saying that the **topics listed above are not necessairly to be explored in a linear order**. On the contrary: I will most probably need to go back and forth between them, as I see fit. This is pretty common in Data Science projects, as we are always learning new stuff and improving our models.
+It goes without saying that the **topics listed above are not necessairly to be explored in a linear order**. On the contrary: I will most probably need to go back and forth between them, as I see fit. This is really common in Data Science projects, as we are always learning new stuff and improving our models.
 
-Along the project, I will be explaining the concepts and techniques used, as well as the results obtained.
+Along the project, I will be explaining the concepts and techniques used, as well as the results obtained. Naturaly, I will be using Python and some of its libraries, such as [pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/), [matplotlib](https://matplotlib.org/) and [scikit-learn](https://scikit-learn.org/stable/).
 
-Naturaly, I will be using Python and some of its libraries, such as [pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/), [matplotlib](https://matplotlib.org/) and [scikit-learn](https://scikit-learn.org/stable/). On the Bayesian side, I will be implementing the models using NumPy and statistical knowledge on Bayesian inference and classification models. 
+❗**DISCLAIMER:** This is a project developed for learning purposes only.
